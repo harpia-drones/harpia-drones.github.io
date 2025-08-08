@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ .Permalink }}">
+<!-- TODO: adicionar imagem padrão do open graph -->
+<meta property="og:image" content="{{ with .Params.images }}{{ index . 0 }}{{ else }}https://endereco-da-foto/foto/akdfjl{{ end }}">
+<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+{{ if .Params.description }}
+  <meta name="description" content="{{ .Params.description }}">
+{{ end }}
+
+<title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
+
+<!-- TODO: adicionar arquivo css nesse path -->
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
+
+<!-- TODO: adicionar favicon -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>{{ partial "header.html" . }}</header>
+<main>{{ block "main" . }}{{ end }}</main>
+<footer>{{ partial "footer.html" . }}</footer>
+
+</body>
+</html>
+

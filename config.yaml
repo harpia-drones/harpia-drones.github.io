@@ -1,0 +1,30 @@
+# url do site
+baseURL: "https://harpia-drones.github.io/"
+# título da página inicial
+title: "UFRJ Harpia"
+# tema customizado para o harpia
+theme: temaharpia
+
+# desabilita a função de tags e categorias
+taxonomies: []
+
+# linguagem padrão do site
+defaultContentLanguage: pt
+languages:
+  pt:
+    languageName: Português
+    languageCode: "pt-BR"
+    contentDir: content/pt
+    weight: 1
+  en:
+    languageName: English
+    languageCode: en
+    contentDir: content/en
+    weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      # habilita o uso de html dentro do Markdown
+      unsafe: true
+
