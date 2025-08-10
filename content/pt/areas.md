@@ -32,6 +32,16 @@ Por fim, ao final de toda etapa de idealização do projeto, envolvendo simulaç
 
 <section>
 
+A área de mecânica atua na construção, manutenção e aprimoramento da parte estrutural do drone, garantindo que ele possa acomodar todos os componentes necessários, sempre com foco no desempenho e na eficiência. Desde estudos para a escolha de motores, hélices e materiais até o desenvolvimento de suportes e atuadores com softwares CAD, a equipe busca constantemente implementar melhorias funcionais e harmônicas, alinhadas às necessidades das demais áreas, mantendo um ciclo contínuo de evolução.
+
+Toda a estrutura do drone é planejada e discutida cuidadosamente, para que cada componente tenha seu devido lugar de forma organizada, assegurando o máximo de segurança tanto para os elementos do sistema quanto para as pessoas que estejam próximas durante sua operação.
+
+Com dedicação e empenho, a equipe de mecânica da Harpia projeta, desenvolve e aperfeiçoa soluções para oferecer a melhor estrutura possível, permitindo que o projeto alcance seu potencial máximo e desbrave os céus com excelência.
+
+</section>
+
+<section>
+
 ## Área de Marketing
 
 A função do marketing é atuar como ponte entre a equipe e o público, promovendo sua imagem, conquistando apoios e garantindo visibilidade para seus projetos. Mais do que apenas divulgar resultados, o marketing tem um papel estratégico ao comunicar o propósito da equipe, destacar suas conquistas e atrair recursos financeiros, materiais e institucionais por meio de parcerias e patrocínios. Ele também é responsável por construir e manter a identidade visual da equipe, gerenciar suas redes sociais, criar conteúdos informativos e visuais, e organizar eventos ou ações de divulgação. Ao fortalecer a presença da equipe no meio acadêmico, tecnológico e empresarial, o marketing contribui diretamente para sua sustentabilidade, crescimento e reconhecimento. Além disso, o setor tem papel importante no engajamento com o público, aproximando a sociedade da tecnologia e da inovação desenvolvidas, o que reforça a relevância do projeto e abre portas para novas oportunidades.
