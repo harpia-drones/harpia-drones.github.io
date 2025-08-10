@@ -490,6 +490,17 @@ section h2 {
     cursor: pointer;
 }
 
+.imagem-gallery {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.imagem-gallery > img {
+	width: auto;
+	max-width: 300px;
+}
+
 /* ==========================================================================
    5. MEDIA QUERIES PARA RESPONSIVIDADE
    ========================================================================== */
