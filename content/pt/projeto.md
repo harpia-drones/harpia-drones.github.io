@@ -35,6 +35,6 @@ description: "Página de visualização de um projeto"
 -->
 </div>
 <div class="back-link-container">
-<a href="projetos.html" class="back-link">&larr; Voltar para todos os projetos</a>
+<a href="{{ "/projetos" | relLangUrl }}" class="back-link">&larr; Voltar para todos os projetos</a>
 </div>
 

@@ -10,6 +10,7 @@ taxonomies: []
 
 # linguagem padrão do site
 defaultContentLanguage: pt
+defaultContentLanguageInSubdir: true
 languages:
   pt:
     languageName: Português
