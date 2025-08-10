@@ -2,67 +2,6 @@
 // ARQUIVO DE SCRIPTS GLOBAIS DO SITE
 // ===================================================
 
-
-
-// --- Dados dos Projetos ---
-const projetos = [
-    {
-        id: 1,
-        titulo: "Aeronave VANT Harpia V3",
-        link: "projeto-nx.html?id=1", // Link para a página de detalhes com o ID
-        imagem: "https://placehold.co/1200x600/4a077a/f0f0f0?text=Harpia+V3",
-        descricao: "O Harpia V3 é a terceira iteração da nossa principal aeronave para competições de aerodesign. O projeto foi otimizado para maximizar a capacidade de carga útil sem comprometer a estabilidade e a manobrabilidade.",
-        status: "Concluído",
-        especificacoes: [
-            "Envergadura: 3 metros",
-            "Peso vazio: 8 kg",
-            "Capacidade de carga: 12 kg",
-            "Motorização: Elétrica Brushless 5060",
-            "Material: Fibra de carbono e de vidro"
-        ],
-        galeria: [
-            "https://placehold.co/400x300/1a1a1a/f0f0f0?text=V3-Detalhe1",
-            "https://placehold.co/400x300/1a1a1a/f0f0f0?text=V3-Detalhe2",
-            "https://placehold.co/400x300/1a1a1a/f0f0f0?text=V3-Detalhe3"
-        ]
-    },
-    {
-        id: 2,
-        titulo: "Sistema de Controle de Voo Autônomo",
-        link: "projeto-nx.html?id=2", // Link para a página de detalhes com o ID
-        imagem: "https://placehold.co/1200x600/32CD32/1a1a1a?text=Software",
-        descricao: "Este projeto foca no desenvolvimento de um sistema de piloto automático customizado, utilizando uma placa Raspberry Pi como computador de bordo para realizar voos autônomos por waypoints.",
-        status: "Em Andamento",
-        especificacoes: [
-            "Plataforma: Raspberry Pi 4",
-            "Linguagem: Python",
-            "Sensores: IMU (MPU-6050), GPS (NEO-6M)",
-            "Comunicação: Telemetria via rádio 433MHz",
-            "Frameworks: MAVLink, DroneKit"
-        ],
-        galeria: [
-            "https://placehold.co/400x300/1a1a1a/f0f0f0?text=Software-Placa",
-            "https://placehold.co/400x300/1a1a1a/f0f0f0?text=Software-Codigo"
-        ]
-    },
-    {
-        id: 3,
-        titulo: "Estrutura com Compósitos Leves",
-        link: "projeto-nx.html?id=3", // Adicionei um link de exemplo
-        imagem: "https://placehold.co/400x200/1a1a1a/f0f0f0?text=Estrutura",
-        descricao: "Pesquisa e aplicação de materiais compósitos, como fibra de carbono e de vidro, para a construção de uma fuselagem mais leve e resistente.",
-        status: "Em Andamento",
-        especificacoes: [ // Adicionei especificações de exemplo
-            "Material Principal: Fibra de Carbono Toray T700",
-            "Resina: Epóxi de alta performance",
-            "Técnica de Laminação: Vácuo",
-            "Redução de Peso Estimada: 25%"
-        ],
-        galeria: [] // Galeria vazia por enquanto
-    }
-];
-
-
 const membros = [
     // --- EQUIPE DE SOFTWARE ---
     {
@@ -136,9 +75,19 @@ if (hamburger && navLinks) {
 }
 
 
+
+
 // --- Lógica que será executada quando a página carregar ---
 window.onload = function() {
 
+document.querySelectorAll('#language-switcher-desktop', '#language-switcher-mobile')
+  .forEach(el => {
+    el.addEventListener('change', function() {
+      if (this.value) {
+        window.location.href = this.value;
+      }
+    });
+  });
 
 
 // ... (A lógica do Menu e da Página de Projetos continua aqui em cima, sem alterações) ...

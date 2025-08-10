@@ -2,31 +2,35 @@
 <img src="/img/logo.jpeg" alt="Logo UFRJ Harpia" class="logo-nav">
 
 <ul class="nav-links">
-{{ range site.Menus.main }}
-<li><a href="{{ .URL }}">{{ .Name}}</a></li>
-{{ end }}
-<li class="language-switcher-item mobile-only">
-<div class="language-switcher-container">
-<select id="language-switcher-mobile">
-<option value="pt">Português</option>
-<option value="en">English</option>
-<option value="fr">Français</option>
-</select>
-</div>
-</li>
+  {{ range site.Menus.main }}
+    <li><a href="{{ .URL }}">{{ .Name}}</a></li>
+  {{ end }}
+  <li class="language-switcher-item mobile-only">
+    <div class="language-switcher-container">
+      <select id="language-switcher-mobile">
+        {{ range .AllTranslations }}
+          <option value="{{ .RelPermalink }}" {{ if eq .Language.Lang $.Lang }}selected{{ end }}>
+            {{ .Language.LanguageName }}
+          </option>
+        {{ end }}
+      </select>
+    </div>
+  </li>
 </ul>
 <div class="language-switcher-container desktop-only">
-<select id="language-switcher-desktop">
-<option value="pt">Português</option>
-<option value="en">English</option>
-<option value="fr">Français</option>
-</select>
+  <select id="language-switcher-desktop">
+    {{ range .AllTranslations }}
+      <option value="{{ .RelPermalink }}" {{ if eq .Language.Lang $.Lang }}selected{{ end }}>
+        {{ .Language.LanguageName }}
+      </option>
+    {{ end }}
+  </select>
 </div>
 
 <button class="hamburger-menu">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
 </button>
 </nav>
 
