@@ -46,7 +46,7 @@ Our system is built on a robust technological foundation, using cutting-edge too
 </section>
 
 <div class="back-link-container">
-<a href="/pt/projetos" class="back-link">&larr; Back to all projects</a>
+<a href="/en/projetos" class="back-link">&larr; Back to all projects</a>
 </div>
 
 

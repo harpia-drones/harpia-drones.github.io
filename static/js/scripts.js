@@ -80,7 +80,7 @@ if (hamburger && navLinks) {
 // --- Lógica que será executada quando a página carregar ---
 window.onload = function() {
 
-document.querySelectorAll('#language-switcher-desktop', '#language-switcher-mobile')
+document.querySelectorAll('#language-switcher-desktop, #language-switcher-mobile')
   .forEach(el => {
     el.addEventListener('change', function() {
       if (this.value) {
