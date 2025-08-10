@@ -286,19 +286,6 @@ section h2 {
     margin-bottom: 2rem;
 }
 
-.tech-specs {
-    list-style: none;
-    padding-left: 0;
-}
-
-.tech-specs li {
-    background-color: var(--cor-secundaria);
-    padding: 0.8rem;
-    margin-bottom: 0.5rem;
-    border-left: 4px solid var(--cor-destaque);
-    border-radius: 4px;
-}
-
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

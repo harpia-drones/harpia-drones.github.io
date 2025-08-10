@@ -140,47 +140,6 @@ if (hamburger && navLinks) {
 window.onload = function() {
 
 
-    // 2. LÓGICA PARA A PÁGINA DE DETALHES DE UM PROJETO (projeto-nx.html)
-    const detailContainer = document.getElementById('project-detail-container');
-    if (detailContainer) {
-        const urlParams = new URLSearchParams(window.location.search);
-        const projetoId = parseInt(urlParams.get('id'));
-        const projeto = projetos.find(p => p.id === projetoId);
-
-        if (projeto) {
-            const statusColor = projeto.status.toLowerCase() === 'concluído' ? 'status-completed' : 'status-inprogress';
-            const projectHTML = `
-                <div class="project-header">
-                    <h1>${projeto.titulo}</h1>
-                    <span class="status ${statusColor}">${projeto.status}</span>
-                </div>
-                <img src="${projeto.imagem}" alt="Imagem principal do projeto ${projeto.titulo}" class="main-image">
-                <div class="project-body">
-                    <section class="project-section">
-                        <h2>Sobre o Projeto</h2>
-                        <p>${projeto.descricao}</p>
-                    </section>
-                    <section class="project-section">
-                        <h2>Especificações Técnicas</h2>
-                        <ul class="tech-specs">
-                            ${projeto.especificacoes.map(spec => `<li>${spec}</li>`).join('')}
-                        </ul>
-                    </section>
-                    <section class="project-section">
-                        <h2>Galeria de Imagens</h2>
-                        <div class="image-gallery">
-                            ${projeto.galeria.map(img => `<img src="${img}" alt="Foto da galeria do projeto">`).join('')}
-                        </div>
-                    </section>
-                </div>
-            `;
-            detailContainer.innerHTML = projectHTML;
-        } else {
-            detailContainer.innerHTML = "<h1>Projeto não encontrado</h1><p>O projeto que você está tentando acessar não existe ou o link está quebrado.</p>";
-        }
-    }
-
-    // scripts.js
 
 // ... (A lógica do Menu e da Página de Projetos continua aqui em cima, sem alterações) ...
 
