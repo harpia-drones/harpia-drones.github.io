@@ -2,10 +2,9 @@
 <img src="/img/logo.jpeg" alt="Logo UFRJ Harpia" class="logo-nav">
 
 <ul class="nav-links">
-<li><a href="{{ "/" | relLangURL }}">Página Inicial</a></li>
-<li><a href="{{ "/nossa-equipe" | relLangURL }}">Nossa Equipe</a></li>
-<li><a href="{{ "/projetos" | relLangURL }}">Projetos</a></li>
-<li><a href="{{ "/contato" | relLangURL }}">Contato</a></li>
+{{ range site.Menus.main }}
+<li><a href="{{ .URL }}">{{ .Name}}</a></li>
+{{ end }}
 </ul>
 
 <button class="hamburger-menu">

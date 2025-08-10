@@ -1,4 +1,7 @@
 ---
+menus:
+  main:
+    weight: 2
 title: "Projetos"
 date: 2025-08-09T23:16:18-03:00
 draft: false

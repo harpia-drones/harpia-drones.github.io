@@ -1,11 +1,14 @@
 ---
+menus:
+  main:
+    weight: 1
 title: "UFRJ Harpia"
 date: 2025-08-08T15:34:31-03:00
 draft: false
 description: "UFRJ Harpia - Drones Autônomos"
 ---
 
-<section class="section">
+<section>
 
 ## Nossa História
 
@@ -20,7 +23,7 @@ Atualmente, contamos com a participação de mais de quarenta membros de diverso
 <img src="/img/equipe.png" alt="Foto da equipe 1" style="width: 100%; border-radius: 8px; margin-top: 1rem;">
 </section>
 
-<section class="section">
+<section>
 
 ## Missão e Valores
 
@@ -32,7 +35,7 @@ Nossa missão é desenvolver soluções inovadoras, promovendo o crescimento e a
 
 </section>
 
-<section class="section">
+<section>
 
 ## Onde nos Encontrar
 
@@ -43,8 +46,7 @@ Nossa sede e laboratório estão localizados no Núcleo de Computação Eletrôn
 </div>
 </section>
 
-<!-- Seção de contato e redes sociais ATUALIZADA -->
-<section class="section">
+<section>
 
 ## Siga-nos!
 
@@ -66,5 +68,6 @@ Fique por dentro das nossas novidades nas redes sociais:
 <span>UFRJ Nautilus</span>
 </a>
 </div>
+
 </section>
 

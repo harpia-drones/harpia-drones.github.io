@@ -1,11 +1,14 @@
 ---
+menus:
+  main:
+    weight: 4
 title: "Contato"
 date: 2025-08-08T15:34:31-03:00
 draft: false
 description: "Como entrar em contato com a UFRJ Harpia"
 ---
 
-<section class="section">
+<section>
 
 ## Entre em Contato
 
@@ -15,7 +18,7 @@ Utilize o formulário abaixo para nos enviar sua mensagem. Para propostas de par
 
 </section>
 
-<section class="section">
+<section>
 
 ## Formulário de Contato
 
