@@ -139,27 +139,6 @@ if (hamburger && navLinks) {
 // --- Lógica que será executada quando a página carregar ---
 window.onload = function() {
 
-    // 1. LÓGICA PARA A PÁGINA DE PROJETOS (projects.html)
-    const gridContainerProjetos = document.getElementById('projects-grid-container');
-    if (gridContainerProjetos) {
-        projetos.forEach(projeto => {
-            const statusColor = projeto.status.toLowerCase() === 'concluído' ? 'status-completed' : 'status-inprogress';
-            const cardHTML = `
-            <a href="${projeto.link}" style="text-decoration: none;">
-                <div class="project-card">
-                    <img src="${projeto.imagem}" alt="Imagem do projeto ${projeto.titulo}" onerror="this.onerror=null;this.src='https://placehold.co/400x200/1a1a1a/f0f0f0?text=Erro';">
-                    <div class="project-card-content">
-                        <h3>${projeto.titulo}</h3>
-                        <p>${projeto.descricao.substring(0, 150)}...</p> <div class="project-card-footer">
-                            <span class="status ${statusColor}">${projeto.status}</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            `;
-            gridContainerProjetos.innerHTML += cardHTML;
-        });
-    }
 
     // 2. LÓGICA PARA A PÁGINA DE DETALHES DE UM PROJETO (projeto-nx.html)
     const detailContainer = document.getElementById('project-detail-container');

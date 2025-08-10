@@ -42,7 +42,7 @@ body {
     height: auto;
 }
 
-.section-title {
+.container > h2 {
     color: var(--cor-principal);
     border-bottom: 3px solid var(--cor-destaque);
     padding-bottom: 0.5rem;
@@ -215,6 +215,7 @@ section h2 {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-items: center;
     gap: 2rem;
 }
 
@@ -227,6 +228,7 @@ section h2 {
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 100%; /* Garante que os cards tenham a mesma altura */
+    max-width: 500px;
 }
 .projects-grid a {
     text-decoration: none; /* Remove sublinhado do link que envolve o card */
@@ -413,7 +415,7 @@ section h2 {
     .page-header h1 {
         font-size: 2rem;
     }
-    .section-title {
+    .container > h2 {
         font-size: 1.7rem;
     }
     section h2 {
