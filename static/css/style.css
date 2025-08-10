@@ -2,12 +2,12 @@
    1. ESTILOS GLOBAIS E VARIÁVEIS
    ========================================================================== */
 :root {
-    --cor-principal: #4a077a; /* Roxo mais escuro */
-    --cor-destaque: #32CD32;  /* Verde vibrante para detalhes */
-    --cor-secundaria: #1a1a1a; /* Preto */
-    --cor-fundo: #0d0d0d; /* Preto escuro */
-    --cor-texto-claro: #f0f0f0; /* Cinza claro */
-    --cor-texto-escuro: #333;
+    --cor-principal: #2b99d9;
+    --cor-destaque: #0d507a;
+    --cor-secundaria: #dbf8fc;
+    --cor-fundo: #a4d1e3;
+    --cor-texto-claro: #000626;
+    --cor-texto-escuro: #333333;
 }
 
 body {
@@ -290,7 +290,7 @@ body {
 }
 
 .tech-specs li {
-    background-color: #2a2a2a;
+    background-color: var(--cor-secundaria);
     padding: 0.8rem;
     margin-bottom: 0.5rem;
     border-left: 4px solid var(--cor-destaque);
