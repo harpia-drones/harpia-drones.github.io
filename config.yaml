@@ -1,7 +1,7 @@
 # url do site
 baseURL: "https://harpia-drones.github.io/"
-# título da página inicial
-title: "UFRJ Harpia"
+# título do projeto
+title: "UFRJ Nautilus"
 # tema customizado para o harpia
 theme: temaharpia
 
@@ -10,6 +10,7 @@ taxonomies: []
 
 # linguagem padrão do site
 defaultContentLanguage: pt
+# faz com que as páginas em Português fiquem em /pt/
 defaultContentLanguageInSubdir: true
 languages:
   pt:

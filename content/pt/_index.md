@@ -2,10 +2,10 @@
 menus:
   main:
     weight: 1
-title: "UFRJ Harpia"
+title: "UFRJ Nautilus"
 date: 2025-08-08T15:34:31-03:00
 draft: false
-description: "UFRJ Harpia - Drones Autônomos"
+description: "UFRJ Nautilus - Veículos Autônomos"
 ---
 
 <section>

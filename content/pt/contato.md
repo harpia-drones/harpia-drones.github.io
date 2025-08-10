@@ -5,14 +5,14 @@ menus:
 title: "Contato"
 date: 2025-08-08T15:34:31-03:00
 draft: false
-description: "Como entrar em contato com a UFRJ Harpia"
+description: "Como entrar em contato com a UFRJ Nautilus"
 ---
 
 <section>
 
 ## Entre em Contato
 
-A UFRJ Harpia está sempre aberta a novas ideias, colaborações e parcerias. Se você é um estudante interessado em se juntar à equipe, uma empresa buscando inovação ou simplesmente um entusiasta da tecnologia, adoraríamos ouvir você.
+A UFRJ Nautilus está sempre aberta a novas ideias, colaborações e parcerias. Se você é um estudante interessado em se juntar à equipe, uma empresa buscando inovação ou simplesmente um entusiasta da tecnologia, adoraríamos ouvir você.
 
 Utilize o formulário abaixo para nos enviar sua mensagem. Para propostas de parceria ou patrocínio, por favor, detalhe sua proposta para que possamos encaminhá-la ao departamento correto.
 

@@ -8,8 +8,8 @@ imagem-do-projeto:
   other: "Imagem do projeto {{ .Name }}"
 
 logo-harpia:
-  other: "Logo da UFRJ Harpia"
+  other: "Logo da UFRJ Nautilus"
 
 copyright:
-  other: "2025 - UFRJ Harpia. Todos os direitos reservados"
+  other: "2025 - UFRJ Nautilus. Todos os direitos reservados"
 
