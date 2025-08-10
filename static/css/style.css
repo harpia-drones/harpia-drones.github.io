@@ -234,7 +234,7 @@ body {
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(50, 205, 50, 0.3);
+    box-shadow: 0 8px 25px var(--cor-destaque);
 }
 
 .project-card img {
