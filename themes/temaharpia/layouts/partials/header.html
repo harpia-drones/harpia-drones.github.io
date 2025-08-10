@@ -5,7 +5,23 @@
 {{ range site.Menus.main }}
 <li><a href="{{ .URL }}">{{ .Name}}</a></li>
 {{ end }}
+<li class="language-switcher-item mobile-only">
+<div class="language-switcher-container">
+<select id="language-switcher-mobile">
+<option value="pt">Português</option>
+<option value="en">English</option>
+<option value="fr">Français</option>
+</select>
+</div>
+</li>
 </ul>
+<div class="language-switcher-container desktop-only">
+<select id="language-switcher-desktop">
+<option value="pt">Português</option>
+<option value="en">English</option>
+<option value="fr">Français</option>
+</select>
+</div>
 
 <button class="hamburger-menu">
 <span class="bar"></span>

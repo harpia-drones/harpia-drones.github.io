@@ -394,6 +394,102 @@ section h2 {
     margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+    .language-switcher-container {
+        display: list-item; 
+    }
+
+    .nav-links.active + .language-switcher-container {
+
+    }
+}
+
+/* Garante que o item da lista não tenha marcadores (bolinhas) */
+.nav-links .language-switcher-item {
+    list-style: none;
+}
+
+/* Remove a margem extra do container que não é mais necessária */
+.language-switcher-container {
+    margin-left: 0; 
+}
+
+#language-switcher {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque);
+    border: 1px solid var(--cor-principal);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    height: 100%; /* Alinha a altura com os links */
+}
+
+#language-switcher:focus {
+    outline: 2px solid var(--cor-destaque);
+}
+
+/* Na media query, ajuste o alinhamento do seletor dentro do menu mobile */
+@media (max-width: 768px) {
+   .nav-links .language-switcher-item {
+       margin-top: 2rem; /* Adiciona um espaço acima do seletor no menu aberto */
+   }
+}
+/* 1. Adicione estas classes de visibilidade no início ou em uma seção de utilitários */
+.desktop-only {
+    display: block; /* ou flex, dependendo do elemento */
+}
+.mobile-only {
+    display: none;
+}
+
+/* 2. Atualize o estilo da sua navbar para desktop */
+.navbar {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between; /* A MÁGICA ACONTECE AQUI */
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* 3. Ajuste a media query para telas pequenas */
+@media (max-width: 768px) {
+    /* Esconde o seletor de desktop e mostra o de mobile */
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: list-item; /* Faz o item da lista aparecer */
+    }
+
+    /* Remove o space-between para o layout mobile */
+    .navbar {
+        justify-content: space-between; 
+    }
+
+    /* Garante que o seletor dentro do menu mobile tenha um bom espaçamento */
+    .nav-links .language-switcher-item {
+        margin-top: 2rem;
+        list-style: none;
+    }
+}
+
+/* 4. Garanta que o estilo do seletor se aplique a ambos */
+#language-switcher-desktop,
+#language-switcher-mobile {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque);
+    border: 1px solid var(--cor-principal);
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* ==========================================================================
    5. MEDIA QUERIES PARA RESPONSIVIDADE
    ========================================================================== */
@@ -410,6 +506,13 @@ section h2 {
     }
     .container {
         padding: 0 1rem;
+    }
+
+    .desktop-only {
+        display: none; /* Esconde elementos de desktop */
+    }
+    .mobile-only {
+        display: list-item; /* Mostra elementos de mobile */
     }
 
     /* --- Menu Hambúrguer --- */
@@ -437,6 +540,12 @@ section h2 {
 
     .hamburger-menu {
         display: flex; /* Mostra o botão do hambúrguer */
+    }
+
+    /* Garante que o item da lista do seletor de idioma não tenha marcador e tenha espaçamento */
+    .nav-links .language-switcher-item {
+        list-style: none;
+        margin-top: 2rem;
     }
 
     /* --- Grid de Projetos --- */
