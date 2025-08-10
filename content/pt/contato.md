@@ -20,23 +20,10 @@ Utilize o formulário abaixo para nos enviar sua mensagem. Para propostas de par
 ## Formulário de Contato
 
 <div class="google-form-container">
-<!-- 
-COMO USAR:
-1. Crie seu formulário no Google Forms.
-2. Clique em "Enviar" no canto superior direito.
-3. Selecione a aba "<>" (Incorporar HTML).
-4. Copie o código do iframe fornecido.
-5. Substitua TODO o conteúdo da tag <iframe> abaixo pelo código que você copiou.
--->
-<iframe 
-src="ADICIONARFORMGOOGLE" 
-width="640" 
-height="1080" 
-frameborder="0" 
-marginheight="0" 
-marginwidth="0">
-Carregando…
-</iframe>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdTwjyS3KvklvKKC7yW-hVaOZtbw6qTKHhKw9ZZtjjPqzy6sA/viewform?embedded=true" width="640" height="801" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
 </div>
+
 </section>
 
