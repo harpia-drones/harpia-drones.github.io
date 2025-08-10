@@ -11,6 +11,7 @@ description: "Lista de projetos da UFRJ Harpia"
 </div>
 
 <div class="container">
+
 <h2 class="section-title">Projetos em Destaque</h2>
 
 <!-- A grade para os cartões de projetos. O ID é o alvo do JavaScript. -->

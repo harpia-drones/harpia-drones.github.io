@@ -5,27 +5,27 @@ draft: false
 description: "Informações de contato da UFRJ Harpia"
 ---
 
-
 <div class="page-header">
 <h1>Contato e Parcerias</h1>
 <p>Vamos construir o futuro da aviação juntos!</p>
 </div>
 
 <div class="container">
-<!-- Seção de Texto Introdutório -->
+
 <section class="section">
-<h2>Entre em Contato</h2>
-<p>
+
+## Entre em Contato
+
 A UFRJ Harpia está sempre aberta a novas ideias, colaborações e parcerias. Se você é um estudante interessado em se juntar à equipe, uma empresa buscando inovação ou simplesmente um entusiasta da tecnologia, adoraríamos ouvir você.
-</p>
-<p>
+
 Utilize o formulário abaixo para nos enviar sua mensagem. Para propostas de parceria ou patrocínio, por favor, detalhe sua proposta para que possamos encaminhá-la ao departamento correto.
-</p>
+
 </section>
 
-<!-- Seção do Formulário do Google -->
 <section class="section">
-<h2>Formulário de Contato</h2>
+
+## Formulário de Contato
+
 <div class="google-form-container">
 <!-- 
 COMO USAR:
