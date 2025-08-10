@@ -1,0 +1,15 @@
+em-andamento:
+  other: "In Progress"
+
+concluido:
+  other: "Done"
+
+imagem-do-projeto:
+  other: "Image of the {{ .Name }} project"
+
+logo-harpia:
+  other: "UFRJ Harpia's Logo"
+
+copyright:
+  other: "2025 - UFRJ Harpia. All rights reserved"
+

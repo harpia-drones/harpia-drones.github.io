@@ -6,19 +6,18 @@
     {{ end }}
   </div>
   <div class="container">
-    <h2>Projetos em Destaque</h2>
     <div class="projects-grid" id="projects-grid-container">
       {{ range .Pages.ByWeight }}
         <a href="{{ .RelPermalink }}" style="text-decoration: none;">
           <div class="project-card">
-	    <img src="{{ .Params.imagem }}" alt="Imagem do projeto {{ .Title }}">
+	    <img src="{{ .Params.imagem }}" alt="{{ T "imagem-do-projeto" (dict "Name" .Title) }}">
 	    <div class="project-card-content">
 	      <h3>{{ .Title }}</h3>
    	      <p>{{ .Params.description }}<p>
 	      {{ if eq .Params.status_projeto "em-andamento" }}
-                <span class="status status-inprogress">Em Andamento</span>
+                <span class="status status-inprogress">{{ i18n "em-andamento" }}</span>
 	      {{ else if eq .Params.status_projeto "concluido" }}
-                <span class="status status-completed">Concluído</span>
+                <span class="status status-completed">{{ i18n "concluido" }}</span>
 	      {{ end }}
 	    </div>
 	  </div>
