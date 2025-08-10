@@ -2,15 +2,8 @@
 title: "Contato"
 date: 2025-08-08T15:34:31-03:00
 draft: false
-description: "Informações de contato da UFRJ Harpia"
+description: "Como entrar em contato com a UFRJ Harpia"
 ---
-
-<div class="page-header">
-<h1>Contato e Parcerias</h1>
-<p>Vamos construir o futuro da aviação juntos!</p>
-</div>
-
-<div class="container">
 
 <section class="section">
 
@@ -46,5 +39,4 @@ Carregando…
 </iframe>
 </div>
 </section>
-</div>
 

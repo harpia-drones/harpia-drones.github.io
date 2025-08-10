@@ -5,11 +5,6 @@ draft: false
 description: "UFRJ Harpia - Drones Autônomos"
 ---
 
-<div class="page-header">
-<img src="/img/logo.jpeg" alt="Logo UFRJ Harpia" class="logo">
-</div>
-
-<div class="container">
 <section class="section">
 
 ## Nossa História
@@ -72,5 +67,4 @@ Fique por dentro das nossas novidades nas redes sociais:
 </a>
 </div>
 </section>
-</div>
 
