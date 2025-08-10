@@ -8,8 +8,9 @@
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ .Permalink }}">
-<!-- TODO: adicionar imagem padrão do open graph -->
-<meta property="og:image" content="{{ with .Params.images }}{{ index . 0 }}{{ else }}https://endereco-da-foto/foto/akdfjl{{ end }}">
+{{ with .Params.imagem }}
+  <meta property="og:image" content="{{ . }}">
+{{ end }}
 <meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 
