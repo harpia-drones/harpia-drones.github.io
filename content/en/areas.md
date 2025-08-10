@@ -33,6 +33,16 @@ Finally, after the design stage — including simulations and prototype testing 
 
 <section>
 
+The mechanics department works on building, maintaining, and improving the drone’s structural components, ensuring that it can accommodate all necessary parts while always focusing on performance and efficiency. From research for selecting motors, propellers, and materials to developing mounts and actuators with CAD software, the team constantly seeks to implement functional and harmonious improvements aligned with the needs of other departments, maintaining a continuous cycle of evolution.
+
+The entire structure of the drone is carefully planned and discussed so that each component has its proper place in an organized manner, ensuring maximum safety for both the system’s elements and people nearby during operation.
+
+With dedication and commitment, Harpia’s mechanics team designs, develops, and refines solutions to offer the best possible structure, allowing the project to reach its full potential and conquer the skies with excellence.
+
+</section>
+
+<section>
+
 ## Marketing Division
 
 The Marketing Division acts as a bridge between the team and the public, promoting our image, securing support, and ensuring visibility for our projects. More than just sharing results, marketing plays a strategic role in communicating the team’s purpose, showcasing achievements, and attracting financial, material, and institutional resources through partnerships and sponsorships.
