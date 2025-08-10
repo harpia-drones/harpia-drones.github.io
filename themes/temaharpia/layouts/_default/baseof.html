@@ -19,7 +19,6 @@
 
 <title>{{ block "title" . }}{{ .Title }}{{ end }}</title>
 
-<!-- TODO: adicionar arquivo css nesse path -->
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
 
 <!-- TODO: adicionar favicon -->
@@ -27,9 +26,11 @@
 </head>
 <body>
 
-<header>{{ partial "header.html" . }}</header>
+{{ partial "header.html" . }}
 <main>{{ block "main" . }}{{ end }}</main>
 <footer>{{ partial "footer.html" . }}</footer>
+
+<script src="/js/scripts.js"></script>
 
 </body>
 </html>
