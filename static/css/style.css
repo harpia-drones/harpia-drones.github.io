@@ -296,11 +296,11 @@ section h2 {
 .imagem-gallery > img {
 	width: auto;
 	border-radius: 6px;
-	max-width: 300px;
+	max-width: 291px;
 	transition: transform 0.3s ease;
 }
 .imagem-gallery img:hover {
-    transform: scale(1.04);
+    transform: scale(1.06);
 }
 
 /*codigo da galeria de imagens antiga*/
@@ -630,5 +630,6 @@ section h2 {
     font-size: 1rem;
     color: var(--cor-texto-claro);
 }
+
 
 
