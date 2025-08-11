@@ -32,6 +32,8 @@ Por fim, ao final de toda etapa de idealização do projeto, envolvendo simulaç
 
 <section>
 
+## Área de Mecânica
+
 A área de mecânica atua na construção, manutenção e aprimoramento da parte estrutural do drone, garantindo que ele possa acomodar todos os componentes necessários, sempre com foco no desempenho e na eficiência. Desde estudos para a escolha de motores, hélices e materiais até o desenvolvimento de suportes e atuadores com softwares CAD, a equipe busca constantemente implementar melhorias funcionais e harmônicas, alinhadas às necessidades das demais áreas, mantendo um ciclo contínuo de evolução.
 
 Toda a estrutura do drone é planejada e discutida cuidadosamente, para que cada componente tenha seu devido lugar de forma organizada, assegurando o máximo de segurança tanto para os elementos do sistema quanto para as pessoas que estejam próximas durante sua operação.
