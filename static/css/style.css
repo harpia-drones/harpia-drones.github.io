@@ -286,19 +286,19 @@ section h2 {
     margin-bottom: 2rem;
 }
 
-.image-gallery {
+.imagem-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
 }
 
-.image-gallery img {
+.imagem-gallery img {
     width: 100%;
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
-.image-gallery img:hover {
+.imagem-gallery img:hover {
     transform: scale(1.05);
 }
 
@@ -621,3 +621,4 @@ section h2 {
     font-size: 1rem;
     color: var(--cor-texto-claro);
 }
+
